@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Ninja Quiz</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Css style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+    </div>
+  </div>
+  
+  <!-- Display Score Section -->
+  <div class="result py-4 d-none bt-light text-center">
+    <div class="container lead">
+      <p> Your are <span class="text-primary display-4 p-3">0%</span>ninja</p>
+    </div>
+  </div>
+  
+  <!-- Quiz Section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="text-white my-5">On with the questions...</h2>
+
+      <!-- Form Section -->
+      <form class="quiz-form text-light">
+
+        <!-- Section 1 question 1 -->
+        <div class="my-2">
+          <p class="lead font-weight-normal">1. How do you give a ninja direction</p>
+          <!-- Option 1 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q1" value="A" checked>
+            <label class="form-check-lable">How them a map.</label>
+          </div>
+          <!-- Option 2-->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q1" value="B">
+            <label class="form-check-lable">Don't warry, a ninja will find you.</label>
+          </div>
+        </div>
+
+        <!-- Section 2 question 2 -->
+        <div class="my-2">
+          <p class="lead font-weight-normal">2. If a ninja has three apples, then give one to Olamide and one to Adeseun, how many apples does the ninja has left?</p>
+          <!-- Option 1 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q2" value="A" checked>
+            <label class="form-check-lable">1 apple</label>
+          </div>
+          <!-- Option 2 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q2" value="B">
+            <label class="form-check-lable">3 apples and two corpses</label>
+          </div>
+        </div>
+
+        <!-- Section 3 question 3 -->
+        <div class="my-2">
+          <p class="lead font-weight-normal">3. How do you know when you've met a ninja?</p>
+          <!-- Option 1 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q3" value="A" checked>
+            <label class="form-check-lable">You'll recognize the outfit</label>
+          </div>
+          <!-- Option 2 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q3" value="B">
+            <label class="form-check-lable">The grim reaper will tell you</label>
+          </div>
+        </div>
+
+        <!-- Section 4 question 4 -->
+        <div class="my-2">
+          <p class="lead font-weight-normal">4. What is a ninja's favourite array method</p>
+          <!-- Option 1 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q4" value="A" checked>
+            <label class="form-check-lable">forEach()</label>
+          </div>
+          <!-- Option 2 -->
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="Q4" value="B">
+            <label class="form-check-lable">Slice()</label>
+          </div>
+        </div>
+        <div class="text-cetner">
+          <input type="submit" class="btn btn-light">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="App.js"></script>
+</body>
+</html>
