@@ -1,2 +1,3 @@
-# Weather-App
-Weather App
+# JavaScript Projects
+JavaScript Projects
+
